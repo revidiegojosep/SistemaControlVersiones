@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso de JavaScript</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Curso de JavaScript</h1>
+    <p>JavaScript aplicado a interacciones con elementos HTML</p>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="#contenido">Modificar contenido HTML</a>
+    <a href="#estilos">Modificar estilos CSS</a>
+    <a href="#atributos">Modificar atributos HTML</a>
+</nav>
+
+<main>
+
+    <section id="home">
+        <h2>Bienvenido al curso</h2>
+        <p>
+            En este curso aprenderemos a utilizar JavaScript
+            para modificar elementos HTML y CSS.
+        </p>
+    </section>
+
+<section id="contenido">
+
+    <h2>Modificar contenido HTML</h2>
+
+    <p id="texto">
+        Texto original
+    </p>
+
+    <button onclick="cambiarTexto()">
+        Modificar contenido
+    </button>
+
+</section>
+
+<script src="js/contenido.js"></script>	
+
+</main>
+
+<footer>
+    <p>Footer del sitio</p>
+</footer>
+
+</body>
+</html>

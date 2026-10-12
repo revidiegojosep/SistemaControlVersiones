@@ -1,4 +1,9 @@
 function cambiarTexto() {
-    document.getElementById("texto").innerHTML =
-        "El contenido ha sido modificado mediante JavaScript";
+
+    let texto = document.getElementById("texto");
+
+    texto.innerHTML =
+        "Contenido modificado correctamente mediante JavaScript";
+
+    texto.style.color = "green";
 }

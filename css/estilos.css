@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    background-image: url("../img/fondo.jpg");
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+main {
+    min-height: 400px;
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid black;
+}
